@@ -1,0 +1,7 @@
+environment:
+  MAVEN_OPTS : -XX:+TieredCompilation -XX:TieredStopAtLevel=1
+
+install:
+  - mvn -q install -PreducedMemory
+
+build: off
